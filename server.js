@@ -16,7 +16,7 @@ then(()=>{console.log("Mongoose server has started")
 })
 .catch((err)=>{
     console.error(err)
-})
+})  
 app.use(cors());
 
 app.use(bodyParser.json());
